@@ -80,7 +80,7 @@ describe('Videogular Player', () => {
 
         (<any>document).mockedExitFunction = () => {};
 
-        spyOn(document, 'mockedExitFunction').and.callThrough();
+        spyOn(document, 'mockedExitFunction' as any).and.callThrough();
 
         fsAPI.exit();
 
@@ -93,7 +93,7 @@ describe('Videogular Player', () => {
 
         (<any>document).mockedExitFunction = () => {};
 
-        spyOn(document, 'mockedExitFunction').and.callThrough();
+        spyOn(document, 'mockedExitFunction' as any).and.callThrough();
 
         fsAPI.nativeFullscreen = false;
         fsAPI.exit();

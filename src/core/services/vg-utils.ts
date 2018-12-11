@@ -26,7 +26,7 @@ export class VgUtils {
 
     // Very simple mobile detection, not 100% reliable
     static isMobileDevice() {
-        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf("IEMobile") !== -1);
+        return (typeof window.screen.orientation !== "undefined") || (navigator.userAgent.indexOf("IEMobile") !== -1);
     };
 
     static isiOSDevice() {
