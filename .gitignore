@@ -6,9 +6,9 @@ node_modules
 npm-debug.log
 **/*.js
 **/*.js.map
-**/*.d.ts
-**/*.metadata.json
-**/*.ngsummary.json
+#**/*.d.ts
+#**/*.metadata.json
+#**/*.ngsummary.json
 coverage
 #compiled
 docs/_book
