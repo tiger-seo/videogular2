@@ -17,10 +17,10 @@ karma-test-shim.js
 .gitignore
 package-lock.json
 
-!**/*.js
-!**/*.d.ts
-!**/*.metadata.json
-!**/*.ngsummary.json
+# !**/*.js
+# !**/*.d.ts
+# !**/*.metadata.json
+# !**/*.ngsummary.json
 
 #################
 ## JetBrains
