@@ -10,7 +10,7 @@ npm-debug.log
 **/*.metadata.json
 **/*.ngsummary.json
 coverage
-compiled
+#compiled
 docs/_book
 package-lock.json
 
